@@ -1,10 +1,51 @@
-﻿<!DOCTYPE html>
+﻿<!doctype html>
 <html>
 <head>
-    <title>Home Page</title>
-	<meta charset="utf-8" />
+    <meta charset="UTF-8">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js"></script>
 </head>
 <body>
-    <h1>A test</h1>
+    <h1>Declare Variables</h1>
+    <ul id="tabs">
+        <li><a href="#java">Java</a></li>
+        <li><a href="#php">PHP</a></li>
+        <li><a href="#python">Python</a></li>
+        <li><a href="#C-Sharp">C-Sharp</a></li>
+    </ul>
+
+    <div id="java" class="tab-section">
+        <p>
+            int A = 10;
+            <br />
+            String B = "Bob";
+        </p>
+    </div>
+
+    <div id="php" class="tab-section">
+        <p>
+            $Testone = "Hello";
+            <br />
+            $Testtwo = 10;
+            <br/>
+            echo "$Testone is the top $Testtwo usage in this";
+        </p>
+    </div>
+
+    <div id="python" class="tab-section">
+        <p>Here we place details </p>
+    </div>
+
+    <div id="C-Sharp" class="tab-section">
+        <p>
+            int A = 45;
+            <br/>
+            string B = "Hello";
+            <br/>
+            Console.WriteLine("{0} , world {1}", B, A);
+        </p>
+    </div>
+
 </body>
 </html>
