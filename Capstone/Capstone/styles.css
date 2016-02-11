@@ -1,0 +1,231 @@
+html{
+	background-image: url(images/gplaypattern.png);
+	/* Background patterns from subtlepatterns.com */
+}
+#wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  width: 96%;
+  max-width: 960px;
+}
+
+#header {
+	color: white;
+  border: solid #C0C0C0 1px;
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 97.9166667%; 
+	background-image: url(images/whitewall.png);
+}
+
+#logo{
+	float: left;
+	font-size: 48px;
+	color: #AC182E;
+	/* border: thin solid black; */
+	margin-left: 10px;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+#logo a:visited, a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+#navigation {
+  padding-bottom: 3px;
+  /* margin-left: -1.0416667%;  */
+  padding-right: 1.0416667%; 
+  padding-left: 1.0416667%; 
+  width: 97.9166667%; 
+  /* border: thin solid black; */
+  display: inline-block;
+}
+
+#navigation ul li {
+  display: inline-block;
+  margin-right: 2.6595745%; 
+}
+
+#navigation ul li a {
+  height: 42px;
+  line-height: 42px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: black;
+
+}
+
+#navigation a:hover{
+	border-bottom: solid 3px #C00F00;
+	padding-bottom: 10px;
+}
+
+#content1 {
+	margin-top: 10px;
+  margin-right: 10px;
+  float: right;
+  width: 66.7083333%;
+  border: solid #C0C0C0 1px;
+  padding: 10px;
+	text-align: center;
+	background-image: url(images/whitewall.png);
+	font-family: Georgia, serif;
+}
+
+#content2 {
+  margin-top: 10px;
+  margin-right: 10px;
+  float: right;
+  width: 66.7083333%;
+  border: solid #C0C0C0 1px;
+  padding: 10px;
+	background-image: url(images/whitewall.png);
+	font-family: Georgia, serif;
+}
+
+#sideNav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-top: 20px;
+	background-color: #AC182E;
+	padding-bottom: 20px;
+}
+
+#sideNav {
+  background-color: #AC182E; /*dunwoody's color*/
+  border-right-color: white; 
+  border-right-style: solid; 
+  border-right-width: 2px; 
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  float: left;
+  width: 25.7083333%; 
+  height: auto;
+  padding: 0px;
+	font-family: helvetica, sans-serif;
+}
+
+#sideNav a:visited{
+  text-decoration: none;
+  color: white;
+}
+
+#sideNav li a {
+	display: block;
+	color: white;
+	padding: 8px 0 8px 16px;
+	text-decoration: none;
+	margin: 0 20px;
+	border-top: 1px solid #C25D60;
+}
+
+#sideNav a:link{
+  color: white;
+  text-decoration: none;
+}
+
+#sideNav li a:hover {
+    background-color: white;
+    color: #AC182E;
+}
+
+/* .active keep the color of the selected link */
+#sideNav .active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#footer {
+  border: solid #C0C0C0 1px;
+  float: left;
+  margin: 10px;
+  clear: both;
+  width: 97.9166667%;
+  text-align: center;
+  font-size: .85em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-style: italic;
+	background-image: url(images/whitewall.png);
+}
+
+#footer p{
+	margin: 0px;
+}
+
+h2{
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 24px;
+	color: white;
+	text-transform: uppercase;
+	font-family: georgia;
+}
+
+@media screen and (max-width: 768px) {
+	#sideNav li a{
+		border: none;
+		padding: 10px;
+	}
+	#sideNav {
+		width: 97.9166667%;
+		height: auto;
+		text-align: center;
+		margin-right: 10px;
+		display: inline;
+	}
+	#sideNav ul li{
+		display: inline-block;
+	}
+	#sideNav a:hover{
+		padding-right: 10px;
+	}
+	#content1, #content2{
+		width: 94.9166667%;
+		float: left;
+		margin-left: 10px;
+	}
+	#logo{
+		text-align: center;
+		margin: 0 10px;
+		width: 96.9166667%;
+	}
+	#navigation{
+		margin-top: 0px;
+	}
+	#navigation ul li{
+		display: block;
+		text-align: center;
+		padding: 0px;	
+		margin: 0px;
+	}
+	#navigation ul li a{
+		
+	}
+	#navigation ul{
+		padding: 0px;	
+		margin: 0px;
+	}
+	#navigation a{
+		/* border: thin solid black; */
+		padding: 0px;	
+		margin: 0px;
+	}	
+	#navigation a:hover{
+		color: #C00F00;
+		border: none;
+	}
+}
+
+/*
+@font-face{
+	font-family: Shojumaru;
+	src: url(font/Shojumaru-Regular.ttf);
+		//Shojumaru by Brian J. Bonislawsky http://scripts.sil.org/OFL 
+}
+*/
