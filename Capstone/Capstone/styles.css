@@ -83,7 +83,7 @@ html{
   border: solid #C0C0C0 1px;
   padding: 10px;
 	background-image: url(images/whitewall.png);
-	font-family: Georgia, serif;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #sideNav ul {
