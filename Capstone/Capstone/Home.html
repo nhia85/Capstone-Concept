@@ -3,49 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" href="styles_js.css" />
     <link rel="stylesheet" href="styles.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
     <script src="scripts.js"></script>
 </head>
 <body>
-    <h1>Declare Variables</h1>
-    <ul id="tabs">
-        <li><a href="#java">Java</a></li>
-        <li><a href="#php">PHP</a></li>
-        <li><a href="#python">Python</a></li>
-        <li><a href="#C-Sharp">C-Sharp</a></li>
-    </ul>
+        <div id="wrapper">
+            <!-- the header and top navigation -->
+            <div id="header">
 
-    <div id="java" class="tab-section">
-        <p>
-            int A = 10;
-            <br />
-            String B = "Bob";
-        </p>
-    </div>
+                <div id="logo">
+                    <a href="index.html">
+                        Code Plateau
+                    </a>
+                </div>
 
-    <div id="php" class="tab-section">
-        <p>
-            $Testone = "Hello";
-            <br />
-            $Testtwo = 10;
-            <br/>
-            echo "$Testone is the top $Testtwo usage in this";
-        </p>
-    </div>
+                <div id="navigation">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href=".html">text</a></li>
+                        <li><a href=".html">text</a></li>
+                    </ul>
+                </div>
 
-    <div id="python" class="tab-section">
-        <p>Here we place details </p>
-    </div>
+            </div> <!-- end header -->
+            <!-- the sideNav -->
+            <div id="sideNav">
+                <ul>
+                    <h2>Tutorial</h2>
+                    <li><a href="Home.html">Declarations</a></li>
+                    <li><a href=".html">Looping</a></li>
+                    <li><a href=".html">Arrays</a></li>
+                    <li><a href=".html">Methods</a></li>
+                </ul>
+            </div> <!-- end sideNav -->
+            <!-- content 1 -->
+            <div id="content1">
+                <p>
+                    Dunwoody College of Technology #1 source for programming languages.
+                </p>
+                <p>
+                    Forgot how to declare a variable in javascript? No problem!
+                </p>
+                <p>
+                    This website allows you to view how to perform different tasks using pseudocode, python, C#, php, javaScript, and java.
+                </p>
 
-    <div id="C-Sharp" class="tab-section">
-        <p>
-            int A = 45;
-            <br/>
-            string B = "Hello";
-            <br/>
-            Console.WriteLine("{0} , world {1}", B, A);
-        </p>
-    </div>
+            </div> <!-- end of content1 -->
+            <!-- content2-->
+            <div id="content2" class="Tabs">
+                <h1>Declare Variables</h1>
+            <p>Some text</p>
+                <ul id="tabs">
+                    <li><a href="#java">Java</a></li>
+                    <li><a href="#php">PHP</a></li>
+                    <li><a href="#python">Python</a></li>
+                    <li><a href="#C-Sharp">C-Sharp</a></li>
+                </ul>
+
+                <div id="java" class="tab-section">
+                    <p>
+                        int A = 10;
+                        <br />
+                        String B = "Bob";
+                    </p>
+                </div>
+
+                <div id="php" class="tab-section">
+                    <p>
+                        $Testone = "Hello";
+                        <br />
+                        $Testtwo = 10;
+                        <br />
+                        echo "$Testone is the top $Testtwo usage in this";
+                    </p>
+                </div>
+
+                <div id="python" class="tab-section">
+                    <p>Here we place details </p>
+                </div>
+
+                <div id="C-Sharp" class="tab-section">
+                    <p>
+                        int A = 45;
+                        <br />
+                        string B = "Hello";
+                        <br />
+                        Console.WriteLine("{0} , world {1}", B, A);
+                    </p>
+                </div>
+
+            </div> <!-- end content2 -->
+            <!-- the footer -->
+            <div id="footer">
+                <p style="color: red;">text</p>
+            </div>
+        </div> <!-- end wrapper -->
 
 </body>
 </html>
